@@ -1,0 +1,160 @@
+ICP4I Login:
+https://integration-intpak.integrationpak-055be62028fec1a956793dedf3faa04a-0001.us-east.containers.appdomain.cloud/
+admin/integrationcloudpakadminpassw0rd
+
+linux:
+52.116.50.184
+root/AdvutZ5s
+
+Jenkins :
+http://52.116.50.184:8080/
+admin/Password@123
+
+Nexus:
+http://52.116.50.184:8081/
+admin/cbf6b3b6-99ec-47f6-88b3-3c6175318d57
+
+
+
+
+
+CP4I Console
+https://integration-cp4i.cp4i-demo-880264-32d7c19d4374c7b6f6308b1ef2de3e3e-0001.us-east.containers.appdomain.cloud/
+ 
+ 
+API Connect – API Manager Console
+https://mgmt.icp-proxy.cp4i-demo-880264-32d7c19d4374c7b6f6308b1ef2de3e3e-0001.us-east.containers.appdomain.cloud/manager/acn-studio/
+ 
+API Connect – Cloud Administrator Console
+https://mgmt.icp-proxy.cp4i-demo-880264-32d7c19d4374c7b6f6308b1ef2de3e3e-0001.us-east.containers.appdomain.cloud/auth/admin/sign-in/
+
+
+
+
+https://integration-cp4i.cp4i-demo-880264-32d7c19d4374c7b6f6308b1ef2de3e3e-0001.us-east.containers.appdomain.cloud/
+Accenture-International-Business-Machines
+
+
+Jenkins
+Access URL 
+http://localhost:8080/
+
+
+Nexus
+https://help.sonatype.com/repomanager3/download/download-archives---repository-manager-3
+
+
+
+
+C:\Program Files\Nexus\nexus-3.22.0-02\bin
+nexus.exe /run
+
+URL =>  http://localhost:8081/repository/APIC_ICP4I/
+
+
+git repository
+https://github.com/kavitachavan123/apic
+
+https://github.com/kavitachavan123/apic.git
+
+https://www.youtube.com/watch?v=2vASHVT0qKc
+
+
+ls
+cd
+git init
+git remote add origin [gitLink]
+git remote -v
+git add .
+git commit -m "First commit"
+git push origin master
+
+
+
+Nexus & Jenkin config VVIP
+https://support.sonatype.com/hc/en-us/articles/227256688-How-do-I-configure-the-Nexus-Jenkins-Plugin
+https://support.sonatype.com/hc/en-us/articles/227256688-How-do-I-configure-the-Nexus-Jenkins-Plugin
+
+
+
+Linux VMWARE
+http://laptops.eng.uci.edu/software-installation/using-linux/how-to-set-up-virtual-linux
+
+
+
+Google Cloud 
+https://cloud.google.com/compute/docs/quickstart-linux
+
+
+
+
+
+https://www.youtube.com/watch?v=-3Jg87iX9Z4
+https://www.youtube.com/watch?v=-3Jg87iX9Z4
+
+
+
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v6.4.1/install.sh | bash
+
+
+
+
+npm install -g apiconnect --no-optional --ignore-script
+
+read -s -n 1 key
+
+
+https://www.ibm.com/support/knowledgecenter/SSMNED_2018/com.ibm.apic.toolkit.doc/tapim_cli_install.html
+
+https://www.ibm.com/support/knowledgecenter/SSMNED_2018/com.ibm.apic.cliref.doc/apic.html
+
+
+export PATH=$PATH:/root
+
+
+chmod --recursive a+rwx /root/
+
+
+realm find command
+apic-slim identity-providers:list --scope admin --server mgmt.icp-proxy.cp4i-demo-880264-32d7c19d4374c7b6f6308b1ef2de3e3e-0001.us-east.containers.appdomain.cloud --fields name,title
+
+apic identity-providers:list --scope admin --server apimanager.eu-gb.apiconnect.cloud.ibm.com --fields name,title
+
+
+
+realm :  default-idp-1   (for manager dfault is default-idp-2)
+
+
+
+apic login -s mgmt.icp-proxy.cp4i-demo-880264-32d7c19d4374c7b6f6308b1ef2de3e3e-0001.us-east.containers.appdomain.cloud -u admin -p admin2 --realm provider/default-idp-2
+
+apic login -s apimanager.eu-gb.apiconnect.cloud.ibm.com -u vodefonekavita@gmail.com -p Vodafone*123 --realm provider/default-idp-1
+
+apic login -s apimanager.eu-gb.apiconnect.cloud.ibm.com -u kavitachavan123@gmail.com -p Shanna@123
+
+
+https://www.youtube.com/watch?v=KBYGCbum0iQ
+
+
+https://apimanager.eu-gb.apiconnect.cloud.ibm.com/apim/
+https://apimanager.eu-gb.apiconnect.cloud.ibm.com/apim
+
+
+vodefonekavita@gmail.com / Vodafone*123
+
+apic drafts:push myproduct_1.0.0.yaml --server apimanager.eu-gb.apiconnect.cloud.ibm.com --organization vodafonekavitagmailcom-dev
+
+Saved to drafts : 
+apic drafts:push myapi_1.0.0.yaml --server apimanager.eu-gb.apiconnect.cloud.ibm.com --organization vodafonekavitagmailcom-dev
+
+Published :
+apic publish myproduct_1.0.0.yaml --catalog sb --server apimanager.eu-gb.apiconnect.cloud.ibm.com --organization vodafonekavitagmailcom-dev 
+
+
+list catalogs 
+apic catalogs --server apimanager.eu-gb.apiconnect.cloud.ibm.com --organization vodafonekavitagmailcom-dev
+
+list organization
+ apic organizations --server apimanager.eu-gb.apiconnect.cloud.ibm.com
+
+
